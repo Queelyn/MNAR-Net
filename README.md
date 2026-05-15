@@ -76,6 +76,6 @@ replay_x, replay_y = model.sample_replay(snr_db=-10.0, seed=42)
 print(replay_x.shape, replay_y.shape)
 ```
 
-## Citation and Dataset
+## Dataset
 
 See `data/dataset_reference.txt` for the RNNEP/NLN-EMP dataset note used by the manuscript.
