@@ -1,0 +1,34 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+build/
+dist/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+# Python cache
+*.py[cod]
+# Local data and generated outputs
+data/*
+!data/README.md
+checkpoints/*
+!checkpoints/README.md
+runs/
+logs/
+results/
+outputs/
+# Model/data artifacts
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.mat
+*.csv
+# System files

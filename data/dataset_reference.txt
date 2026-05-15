@@ -1,0 +1,25 @@
+Dataset note for this repository
+================================
+
+This public release does not redistribute any dataset files.
+
+The manuscript uses the RNNEP / NLN-EMP pump monitoring dataset described by:
+
+Bruinsma, Sietze; Geertsma, Rinze; Loendersloot, Richard; Tinga, Tiedo (2024):
+NLN-EMP - Motor Current and Vibration Monitoring Dataset for various Faults in an
+E-motor-driven Centrifugal Pump. Version 4. 4TU.ResearchData. Dataset.
+DOI: 10.4121/2b61183e-c14f-4131-829b-cc4822c369d0.v4
+
+Associated data article:
+Bruinsma, S., Geertsma, R.D., Loendersloot, R., and Tinga, T. (2024).
+Motor current and vibration monitoring dataset for various faults in an
+E-motor-driven centrifugal pump. Data in Brief, 52, 109987.
+DOI: 10.1016/j.dib.2023.109987
+
+Repository-level assumptions used by the manuscript:
+- vibration sampling rate: 20,000 Hz
+- three-channel input tensor after channel selection
+- sliding-window segmentation to 3 x 1024 samples
+
+Please download the dataset from the official source and prepare the local file
+layout according to your own experiment pipeline.
