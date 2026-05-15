@@ -79,16 +79,3 @@ print(replay_x.shape, replay_y.shape)
 ## Citation and Dataset
 
 See `data/dataset_reference.txt` for the RNNEP/NLN-EMP dataset note used by the manuscript.
-
-## Citation
-
-If you find this repository useful, please cite our paper:
-
-```bibtex
-@article{mnar_net_2025,
-  title={MNAR-Net: An Adaptive Noise-Robust Incremental Learning Framework for Long-Term Condition Monitoring of Shipboard Pump Drive Systems},
-  author={},
-  journal={},
-  year={2025}
-}
-```
